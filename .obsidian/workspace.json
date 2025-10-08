@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "5e9bf9d21696ef8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd48f8430d958957",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e7dffb218649a18",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/favicon.svg"
+              },
+              "icon": "lucide-image",
+              "title": "favicon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22debb7571f10103",
+    "type": "split",
+    "children": [
+      {
+        "id": "54af737c063922fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7284a7d097664e4d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "68324459c27ec909",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "954883726f25115c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ee6f01ce73cf83ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c47e3534dda85d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f9373733bb84694",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "public/favicon.svg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de favicon"
+            }
+          },
+          {
+            "id": "024666e1e95bf7a7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "public/favicon.svg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de favicon"
+            }
+          },
+          {
+            "id": "bcc99cafaa4e6809",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "4fe0e8fadff47c45",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "public/favicon.svg",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de favicon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false,
+      "digitalgarden:Digital Garden Publication Center": false
+    }
+  },
+  "active": "7e7dffb218649a18",
+  "lastOpenFiles": []
+}
