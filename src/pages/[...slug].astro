@@ -1,0 +1,38 @@
+---
+// PAGINA: [...slug].astro
+// Esta es una página dinámica de Astro. Su trabajo es generar una página HTML
+// para cada uno de los archivos que tenemos en nuestra colección 'vault'.
+
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro'; // Importamos nuestro layout principal.
+
+// La función `getStaticPaths` es obligatoria en las páginas dinámicas de Astro.
+// Le dice a Astro qué páginas debe construir.
+export async function getStaticPaths() {
+  // `getCollection('vault')` lee todos los documentos de nuestra colección.
+  const vaultEntries = await getCollection('vault');
+
+  // `map` transforma la lista de documentos en el formato que Astro espera.
+  return vaultEntries.map(entry => ({
+    params: { slug: entry.slug }, // La URL de la página (ej: /conceptos/ia)
+    props: entry, // Pasamos toda la información de la entrada como 'props' a la página.
+  }));
+}
+
+// Astro nos da la entrada ('entry') correspondiente a la página actual a través de `Astro.props`.
+const entry = Astro.props;
+
+// Extraemos el contenido renderizado del documento Markdown.
+// Astro ya ha aplicado todos nuestros plugins de remark/rehype en este punto.
+const { Content } = await entry.render();
+---
+<!--
+  Finalmente, renderizamos el layout `BaseLayout`.
+  - Le pasamos el frontmatter de la entrada (`entry.data`) para que el layout
+    pueda usar el título, la descripción, etc.
+  - Dentro del layout, insertamos el componente `<Content />`, que es el
+    HTML ya procesado de nuestro archivo Markdown.
+-->
+<BaseLayout {...entry.data}>
+  <Content />
+</BaseLayout>

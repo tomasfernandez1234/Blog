@@ -1,0 +1,22 @@
+{
+  // "extends" le dice a TypeScript que herede una configuración base de Astro.
+  // Esto nos da una configuración inicial sólida y optimizada para Astro.
+  // Hay varias opciones como "base", "strict", "strictest". "strict" es un buen balance.
+  "extends": "astro/tsconfigs/strict",
+
+  // "include" le dice al compilador de TypeScript qué archivos debe analizar.
+  // "**/*" significa "todos los archivos en todas las carpetas".
+  // ".astro/types.d.ts" es un archivo que Astro genera automáticamente con tipos específicos de nuestro proyecto.
+  "include": [".astro/types.d.ts", "**/*"],
+
+  // "exclude" le dice a TypeScript qué archivos y carpetas ignorar.
+  // "dist" es la carpeta donde se genera el sitio final, no queremos analizarla.
+  "exclude": ["dist"],
+
+  "compilerOptions": {
+    // "strictNullChecks" es una regla importante.
+    // Cuando está en "true", nos obliga a manejar casos donde una variable podría ser "null" o "undefined".
+    // Esto ayuda a prevenir muchos errores comunes en el código.
+    "strictNullChecks": true
+  }
+}

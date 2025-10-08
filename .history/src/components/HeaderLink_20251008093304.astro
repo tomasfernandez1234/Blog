@@ -1,0 +1,32 @@
+---
+// COMPONENTE: HeaderLink.astro
+// Un simple enlace de navegación que se auto-resalta si la página actual
+// coincide con la URL del enlace.
+
+import type { HTMLAttributes } from 'astro/types';
+
+type Props = HTMLAttributes<'a'>;
+
+const { href, class: className, ...props } = Astro.props;
+
+// Comprobamos si la URL actual coincide con el `href` del enlace.
+// Esto nos permite aplicarle una clase 'active' para resaltarlo.
+const pathname = Astro.url.pathname;
+const isActive = href === pathname || href === pathname.replace(/\/$/, '');
+---
+<a href={href} class:list={[className, { active: isActive }]} {...props}>
+	<slot />
+</a>
+<style>
+	a {
+		display: inline-block;
+		text-decoration: none;
+    padding: 1em 0.5em;
+		color: var(--black);
+		border-bottom: 4px solid transparent;
+	}
+	a.active {
+		font-weight: bolder;
+		border-bottom-color: var(--accent);
+	}
+</style>

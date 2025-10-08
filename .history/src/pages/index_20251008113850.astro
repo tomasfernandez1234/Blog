@@ -1,0 +1,48 @@
+---
+// PAGINA: index.astro (Página de Inicio)
+// Esta es la página principal del sitio. Muestra una galería de todas
+// las notas que se encuentran en la colección 'vault'.
+
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro'; // Reutilizamos el layout principal
+import Card from '../components/Card.astro'; // Importamos el componente de tarjeta
+
+// 1. Obtenemos todas las entradas de la colección 'vault'.
+const vaultEntries = await getCollection('vault');
+
+// 2. Encontramos la entrada de 'home' para renderizar su contenido.
+const homeEntry = vaultEntries.find(entry => entry.slug === 'home');
+const homeContent = homeEntry ? await homeEntry.render() : null;
+
+// 3. Filtramos para excluir la página "Acerca de" y la página "home" que se muestra arriba.
+const filteredEntries = vaultEntries.filter(entry => entry.slug !== 'about' && entry.slug !== 'home');
+
+// 4. Opcional: Ordenamos las entradas, por ejemplo, por fecha de publicación descendente.
+//    Las notas sin `pubDate` irán al final.
+const sortedEntries = filteredEntries.sort((a, b) => {
+  const dateA = a.data.pubDate ?? new Date(0);
+  const dateB = b.data.pubDate ?? new Date(0);
+  return dateB.getTime() - dateA.getTime();
+});
+---
+<BaseLayout title="Inicio" description="Un jardín digital de notas y conceptos.">
+  {homeEntry && (
+    <section class="home-content">
+      {await homeEntry.render()}
+    </section>
+  )}
+  <div class="gallery-grid">
+    {sortedEntries.map(entry => (
+      <Card entry={entry} />
+    ))}
+  </div>
+</BaseLayout>
+
+<style>
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+</style>

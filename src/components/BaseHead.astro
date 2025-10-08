@@ -1,0 +1,58 @@
+---
+// COMPONENTE: BaseHead.astro
+// Este componente contiene todo el <head> de nuestro HTML.
+// Es crucial para el SEO, para cargar estilos, fuentes y metadatos generales.
+
+// Importamos los estilos globales para que se apliquen en todas las páginas.
+import '../styles/global.css';
+// Importamos las constantes del sitio.
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+
+// Definimos las "props" que este componente puede recibir.
+// En este caso, un título y una descripción específicos para la página actual.
+interface Props {
+	title?: string;
+	description?: string;
+	image?: string; // URL de una imagen para redes sociales
+}
+
+// Si no se provee un título o descripción, usamos los valores por defecto de `consts.ts`.
+const {
+  title = SITE_TITLE,
+  description = SITE_DESCRIPTION,
+  image = '/placeholder-social.jpg' // Una imagen por defecto para compartir en redes
+} = Astro.props;
+
+// Obtenemos la URL canónica de la página actual.
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!-- Metadatos Globales -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="generator" content={Astro.generator} />
+
+<!-- Título y Descripción Primarios -->
+<title>{title}</title>
+<meta name="description" content={description} />
+
+<!-- URL Canónica -->
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Open Graph / Facebook (para compartir en redes sociales) -->
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:image" content={new URL(image, Astro.site)} />
+<meta property="og:type" content="website" />
+
+<!-- Twitter (para compartir en Twitter) -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content={title} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content={new URL(image, Astro.site)} />
+
+<!-- Precarga de fuentes para mejorar la velocidad de renderizado -->
+<link rel="preload" href="/fonts/DankMonoNerdFontMono-Regular.woff2" as="font" type="font/woff" crossorigin />
+<link rel="preload" href="/fonts/DankMonoNerdFontMono-Bold.woff2" as="font" type="font/woff" crossorigin />

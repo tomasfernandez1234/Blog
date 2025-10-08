@@ -1,0 +1,126 @@
+---
+// LAYOUT: VaultPage.astro
+// Esta es la plantilla principal para una página individual de nuestro vault.
+// Define la estructura HTML (cabecera, cuerpo, pie de página) y carga
+// los scripts y estilos necesarios para funcionalidades como matemáticas y diagramas.
+
+import type { CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+
+// Definimos las Props que este layout espera recibir.
+// Viene de la data que definimos en `src/content/config.ts`.
+type Props = CollectionEntry<'vault'>['data'];
+
+// Extraemos las propiedades del frontmatter de la página actual.
+const { title, description, pubDate, updatedDate, imgHero } = Astro.props;
+---
+<!doctype html>
+<html lang="es">
+	<head>
+		<!-- El componente BaseHead se encarga de todo el SEO y metadatos básicos. -->
+		<BaseHead title={title} description={description} image={imgHero} />
+
+		<!-- Estilos y Scripts específicos para esta plantilla -->
+
+    <!-- KaTeX (para renderizar fórmulas matemáticas) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+
+    <!-- Mermaid (para renderizar diagramas) -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js" defer></script>
+    <script is:inline>
+      // Este script inicializa Mermaid.js en la página.
+      function initMermaid() {
+        // Comprueba si la librería Mermaid está disponible en la ventana.
+        if (window.mermaid?.run) {
+          // Configura Mermaid. 'theme: default' usa el tema claro.
+          // Puedes cambiarlo a 'dark', 'forest', etc.
+          window.mermaid.initialize({ startOnLoad: false, theme: 'default' });
+          // Busca todos los elementos con la clase 'mermaid' y los renderiza.
+          window.mermaid.run({ querySelector: '.mermaid' });
+        }
+      };
+      // Astro usa una tecnología de transiciones de página que no recarga la página completa.
+      // Por eso, necesitamos ejecutar el script en dos eventos:
+      // 1. 'DOMContentLoaded': Cuando la página carga por primera vez.
+      document.addEventListener('DOMContentLoaded', initMermaid);
+      // 2. 'astro:page-load': Después de una navegación del lado del cliente en Astro.
+      document.addEventListener('astro:page-load', initMermaid);
+    </script>
+
+		<style>
+			body {
+				padding-bottom: 2rem; /* Space for fixed footer */
+			}
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 1em;
+			}
+			.hero-image {
+				width: 100%;
+        margin-bottom: 1.5rem;
+			}
+			.hero-image img {
+				display: block;
+				margin: 0 auto;
+				border-radius: 12px;
+				box-shadow: var(--box-shadow);
+			}
+			.prose {
+				width: 100%;
+				color: rgb(var(--gray-dark));
+			}
+			.title {
+				margin-bottom: 1em;
+				padding: 1em 0;
+				text-align: center;
+				line-height: 1;
+			}
+			.title h1 {
+				margin: 0 0 0.5em 0;
+			}
+			.date {
+				margin-bottom: 0.5em;
+				color: rgb(var(--gray));
+        font-size: 0.9rem;
+			}
+			.last-updated-on {
+				font-style: italic;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<article>
+				{imgHero && (
+          <div class="hero-image">
+            {/* Usamos el componente Image de Astro para optimizar la imagen. */}
+            <img width={1020} height={510} src={imgHero} alt={`Imagen de portada para ${title}`} />
+          </div>
+        )}
+				<div class="prose">
+					<div class="title">
+						<div class="date">
+							{pubDate && <FormattedDate date={pubDate} />}
+							{updatedDate && (
+								<div class="last-updated-on">
+									(Actualizado el <FormattedDate date={updatedDate} />)
+								</div>
+							)}
+						</div>
+						<h1>{title}</h1>
+						<hr />
+					</div>
+          {/* El <slot /> es donde Astro inyectará el contenido de nuestro archivo Markdown. */}
+					<slot />
+				</div>
+			</article>
+		</main>
+		<Footer />
+	</body>
+</html>

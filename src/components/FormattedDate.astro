@@ -1,0 +1,24 @@
+---
+// COMPONENTE: FormattedDate.astro
+// Este componente toma un objeto Date de JavaScript y lo formatea
+// en un formato legible para humanos (ej: "8 de oct de 2025").
+
+interface Props {
+	date: Date;
+}
+
+const { date } = Astro.props;
+---
+<!-- Usamos la etiqueta <time> que es semánticamente correcta para fechas. -->
+<!-- El atributo `datetime` contiene la fecha en un formato estándar para máquinas. -->
+<time datetime={date.toISOString()}>
+	{/*
+    Aquí formateamos la fecha para que sea legible.
+    Cambiamos 'en-us' por 'es-es' para que el formato sea en español.
+  */}
+	{date.toLocaleDateString('es-es', {
+		year: 'numeric',
+		month: 'short',
+		day: 'numeric',
+	})}
+</time>
