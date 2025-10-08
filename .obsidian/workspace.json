@@ -11,12 +11,14 @@
             "id": "7e7dffb218649a18",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "public/favicon.svg"
+                "file": "src/content/vault/posts/example-post.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "favicon"
+              "icon": "lucide-file",
+              "title": "example-post"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "public/favicon.svg",
+                "file": "src/content/vault/posts/example-post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de favicon"
+              "title": "Enlaces entrantes de example-post"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "public/favicon.svg",
+                "file": "src/content/vault/posts/example-post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de favicon"
+              "title": "Enlaces salientes de example-post"
             }
           },
           {
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "public/favicon.svg",
+                "file": "src/content/vault/posts/example-post.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de favicon"
+              "title": "Esquema de example-post"
             }
           }
         ]
@@ -170,5 +172,9 @@
     }
   },
   "active": "7e7dffb218649a18",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "src/assets/blog-placeholder-1.jpg",
+    "public/placeholder-social.jpg",
+    "public/favicon.svg"
+  ]
 }

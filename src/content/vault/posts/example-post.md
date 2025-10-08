@@ -9,7 +9,7 @@ tags: ["ejemplo", "astro", "obsidian"]
 ¡Bienvenido a tu primer post!
 
 Podés escribir en **Markdown** como siempre lo hacés.
-
+ESTO ES UNA PRUEBA
 ## Funcionalidades
 
 Gracias a los plugins que configuramos, podés usar:
