@@ -2,13 +2,10 @@
 dg-home: false
 dg-publish: true
 title: "El cuerpo como sensor: hacia una sonificación de lo inaudible"
-<<<<<<< HEAD
+
 imgHero: https://tomi-digital-resources.storage.googleapis.com/images/1250949/ff8b0ecf-6b07-417f-86fd-a7485a61a61a.jpg
 description: Exploración sobre la transducción sensorial y la sonificación de lo infrasonoro y ultrasónico.
-=======
-imgHero: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sound_wave_in_air.svg"
-description: "Exploración sobre la transducción sensorial y la sonificación de lo infrasonoro y ultrasónico."
->>>>>>> origin/main
+
 ---
 
 # El cuerpo como sensor: hacia una sonificación de lo inaudible  
