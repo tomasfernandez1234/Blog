@@ -1,15 +1,19 @@
 ---
-title: "Este es un Post de Ejemplo"
-description: "Acá podés ver cómo usar el frontmatter de YAML para añadir metadatos a tus notas."
-pubDate: "2025-10-08"
-imgHero: "https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/internal_resources/1763/image_of_nebula_W51.jpeg?w=1600&h=900&fit=clip&crop=faces%2Cfocalpoint"
-tags: ["ejemplo", "astro", "obsidian"]
+dg-home: "true"
+dg-publish: "true"
+pubDate: 2025-10-08
+imgHero: https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/internal_resources/1763/image_of_nebula_W51.jpeg?w=1600&h=900&fit=clip&crop=faces%2Cfocalpoint
+tags:
+  - ejemplo
+  - astro
+  - obsidian
 ---
 
 ¡Bienvenido a tu primer post!
 
 Podés escribir en **Markdown** como siempre lo hacés.
 ESTO ES UNA PRUEBA
+
 ## Funcionalidades
 
 Gracias a los plugins que configuramos, podés usar:
