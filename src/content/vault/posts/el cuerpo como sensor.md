@@ -2,8 +2,8 @@
 dg-home: false
 dg-publish: true
 title: "El cuerpo como sensor: hacia una sonificación de lo inaudible"
-imgHero: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sound_wave_in_air.svg"
-description: "Exploración sobre la transducción sensorial y la sonificación de lo infrasonoro y ultrasónico."
+imgHero: https://tomi-digital-resources.storage.googleapis.com/images/1250949/ff8b0ecf-6b07-417f-86fd-a7485a61a61a.jpg
+description: Exploración sobre la transducción sensorial y la sonificación de lo infrasonoro y ultrasónico.
 ---
 
 # El cuerpo como sensor: hacia una sonificación de lo inaudible  
@@ -37,10 +37,16 @@ La *sonificación* se construirá como una traducción de esas percepciones, má
 
 ## ⚙️ Representación del proceso
 
+
 ```mermaid
-graph TD
-    A[Entorno inaudible<br>(infra/ultrasonido)] --> B[Percepción corporal<br>(vibración, tensión, eco interno)]
-    B --> C[Registro en bitácora<br>(texto, dibujo, voz, emoción)]
-    C --> D[Transducción digital<br>(frecuencias simuladas o visualizaciones)]
-    D --> E[Sonificación estética<br>(obra, instalación o audio experimental)]
-    E --> F[Reflexión crítica<br>sobre lo perceptible]```
+graph TD;
+    A[Entorno Inaudible: Infra y Ultrasonido] -->|Percibido por| B[Percepción corporal];
+    B -->|Registrado en| C[Bitácora: texto, dibujo o audio];
+    C -->|Mapeado a datos| D{Proceso de Transducción};
+    D -->|Transposición sonora| E[Sonificación audible];
+    D -->|Visualización espectral| F[Representación visual];
+    E -->G[Blog];
+    F -->G;
+
+
+```
