@@ -15,7 +15,7 @@ Un punto de partida hacia lo que podría convertirse en una obra, una bitácora 
 
 ---
 
-## 🌌 Sinopsis
+## Sinopsis
 
 > “Lo que no escuchamos, también nos atraviesa.”  
 
@@ -25,7 +25,7 @@ La **Central Nuclear Atucha** se perfila como un territorio simbólico: un espac
 
 ---
 
-## 🧭 Paradigma operativo
+## Paradigma operativo
 
 > [!NOTE]
 > **Paradigma:** Transducción sensorial.  
@@ -37,9 +37,9 @@ La *sonificación* se construirá como una traducción de esas percepciones, má
 
 ---
 
-## ⚙️ Representación del proceso
+## Representación del proceso
 
-<<<<<<< HEAD
+
 
 ```mermaid
 graph TD;
@@ -53,12 +53,3 @@ graph TD;
 
 
 ```
-=======
-```mermaid
-graph TD
-    A[Entorno inaudible<br>(infra/ultrasonido)] --> B[Percepción corporal<br>(vibración, tensión, eco interno)]
-    B --> C[Registro en bitácora<br>(texto, dibujo, voz, emoción)]
-    C --> D[Transducción digital<br>(frecuencias simuladas o visualizaciones)]
-    D --> E[Sonificación estética<br>(obra, instalación o audio experimental)]
-    E --> F[Reflexión crítica<br>sobre lo perceptible]```
->>>>>>> origin/main
