@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "el cuerpo como sensor"
             }
+          },
+          {
+            "id": "d972937c09acfea1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,11 +200,19 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "fb24302c2fea31f6",
+  "active": "d972937c09acfea1",
   "lastOpenFiles": [
+    "src/content/vault/posts/el cuerpo como sensor.md",
+    "conflict-files-obsidian-git.md",
+    "src/site/notes/src/content/vault/posts/example-post.md",
+    "src/site/notes/src/content/vault/posts",
+    "src/site/notes/src/content/vault",
+    "src/site/notes/src/content",
+    "src/site/notes/src",
+    "src/site/notes",
+    "src/site",
     "src/content/vault/posts/example-post.md",
     "src/content/vault/about.md",
-    "src/content/vault/posts/el cuerpo como sensor.md",
     "src/content/vault/posts/el cuerpo como sensor 1.md",
     "src/content/vault/home.md",
     "src/assets/blog-placeholder-1.jpg",
