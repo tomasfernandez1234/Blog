@@ -1,14 +1,15 @@
 ---
-dg-publish: true
+dg-publish: false
 pubDate: 2025-10-08
 imgHero: https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/internal_resources/1763/image_of_nebula_W51.jpeg?w=1600&h=900&fit=clip&crop=faces%2Cfocalpoint
 tags:
   - ejemplo
   - astro
   - obsidian
-dg-home: "true"
+dg-home: "false"
 description: Bienvenido a mi jardín digital.
 title: "El cuerpo como sensor: hacia una sonificación de lo inaudible"
+cssclasses:
 ---
 
 ¡Bienvenido a tu primer post!
