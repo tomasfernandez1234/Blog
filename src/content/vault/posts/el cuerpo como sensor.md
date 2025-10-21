@@ -2,10 +2,8 @@
 dg-home: false
 dg-publish: true
 title: "El cuerpo como sensor: hacia una sonificación de lo inaudible"
-
-imgHero: https://tomi-digital-resources.storage.googleapis.com/images/1250949/ff8b0ecf-6b07-417f-86fd-a7485a61a61a.jpg
+imgHero: https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/internal_resources/1763/image_of_nebula_W51.jpeg?w=1600&h=900&fit=clip&crop=faces%2Cfocalpoint
 description: Exploración sobre la transducción sensorial y la sonificación de lo infrasonoro y ultrasónico.
-
 ---
 
 # El cuerpo como sensor: hacia una sonificación de lo inaudible  
@@ -42,14 +40,12 @@ La *sonificación* se construirá como una traducción de esas percepciones, má
 
 
 ```mermaid
-graph TD;
-    A[Entorno Inaudible: Infra y Ultrasonido] -->|Percibido por| B[Percepción corporal];
-    B -->|Registrado en| C[Bitácora: texto, dibujo o audio];
-    C -->|Mapeado a datos| D{Proceso de Transducción};
-    D -->|Transposición sonora| E[Sonificación audible];
-    D -->|Visualización espectral| F[Representación visual];
-    E -->G[Blog];
-    F -->G;
-
-
+graph TD
+    A[Entorno Inaudible: Infra y Ultrasonido] -->|Percibido por| B[Percepción corporal]
+    B -->|Registrado en| C[Bitácora: texto, dibujo o audio]
+    C -->|Mapeado a datos| D{Proceso de Transducción}
+    D -->|Transposición sonora| E[Sonificación audible]
+    D -->|Visualización espectral| F[Representación visual]
+    E --> G[Blog]
+    F --> G
 ```
