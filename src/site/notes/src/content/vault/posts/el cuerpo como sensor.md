@@ -32,7 +32,7 @@ La *sonificación* se construirá como una traducción de esas percepciones, má
 
 ---
 
-## Representación del proceso
+## Representación del procesoaaa
 
 
 
