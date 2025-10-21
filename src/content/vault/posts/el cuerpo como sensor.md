@@ -1,5 +1,4 @@
 ---
-dg-home: false
 dg-publish: true
 title: "El cuerpo como sensor: hacia una sonificación de lo inaudible"
 imgHero: https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/internal_resources/1763/image_of_nebula_W51.jpeg?w=1600&h=900&fit=clip&crop=faces%2Cfocalpoint
