@@ -5,20 +5,11 @@ description: Bitácora expandida de un proceso sensorial y técnico en torno a A
 date: 2025-10-21
 ---
 
->[!INFO]
+>[! info]
 Este jardín digital es un espacio de exploración entre el cuerpo humano, frecuencia y entorno.  
 Desde observaciones de campo en el Complejo Nuclear Atucha, busco traducir percepciones y estados internos en sonido, una práctica de sonificación subjetiva.
 
----
 
-### Navegación
-
-- 🔬 [Neurociencia y Sonificación](neurociencia-y-sonificacion.md)
-- 📓 [Notas de Campo](notas-de-campo.md)
-- 🔮 [Percepciones y Mapa Sensorial](percepciones.md)
-- 🧩 [Metodología y Procedimientos](metodologia.md)
-- 📚 [Área de Referencias](referencias.md)
-- 🪞 [Reflexiones Finales](reflexiones-finales.md)
 
 ---
 
