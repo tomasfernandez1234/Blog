@@ -13,8 +13,8 @@ imgHero: /cerebro1.jpg
 En este apartado exploro el vínculo entre **mi percepción corporal y emocional durante las visitas a Atucha** y la **traducción sonora de esos estados mentales** a través de ondas cerebrales.  
 El objetivo es generar una correspondencia sensorial entre lo que siento, lo que registro, y cómo eso puede transformarse en un paisaje sonoro que dialogue con el entorno electromagnético y mecánico del lugar.
 
-El proceso parte de mis **notas de campo**: registros escritos de estados emocionales, percepciones y estímulos físicos (vibraciones, zumbidos, texturas, densidad del aire).  
-Cada entrada se **asocia a un tipo de onda cerebral**, que a su vez se **traduce en frecuencias audibles o modulaciones** que construyen la sonificación.
+El proceso parte de mis notas de campo: registros escritos de estados emocionales, percepciones y estímulos físicos (vibraciones, zumbidos, texturas, densidad del aire).  
+Cada entrada se asocia a un tipo de onda cerebral, que a su vez se **traduce en frecuencias audibles o modulaciones** que construyen la sonificación.
 
 ---
 
