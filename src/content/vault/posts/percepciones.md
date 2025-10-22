@@ -1,8 +1,8 @@
 ---
+dg-publish: true
 title: Percepciones
 description: Percepciones
 date: 2025-10-21
-dg-publish: true
 ---
 
 ## `percepciones.md`

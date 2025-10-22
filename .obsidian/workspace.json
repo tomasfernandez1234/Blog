@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/vault/posts/el cuerpo como sensor.md",
+                "file": "src/content/vault/inicio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "el cuerpo como sensor"
+              "title": "inicio"
             }
           }
         ],
@@ -214,17 +214,30 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "7284a7d097664e4d",
+  "active": "19f48da1bb0f2811",
   "lastOpenFiles": [
-    "src/content/vault/about.md",
-    "src/content/vault/posts/metodologia.md",
-    "src/content/vault/posts/neurociencia-y-sonificacion.md",
-    "src/content/vault/posts/notas-de-campo.md",
+    "src/site/notes/src/site/notes/src/content/vault/posts/example-post.md",
+    "src/site/notes/src/site/notes/src/content/vault/posts/el cuerpo como sensor.md",
+    "src/site/notes/src/site/notes/src/content/vault/posts",
+    "src/site/notes/src/site/notes/src/content/vault",
+    "src/site/notes/src/site/notes/src/content",
+    "src/site/notes/src/site/notes/src",
+    "src/site/notes/src/site/notes",
+    "src/site/notes/src/site",
+    "src/site/notes/src/content/vault/posts/reflexiones-finales.md",
+    "src/site/notes/src/content/vault/posts/referencias.md",
+    "src/site/notes/src/content/vault/posts/percepciones.md",
+    "src/site/notes/src/content/vault/posts/metodologia.md",
+    "src/site/notes/src/content/vault/inicio.md",
+    "src/content/vault/posts/el cuerpo como sensor.md",
+    "src/content/vault/posts/example-post.md",
     "src/content/vault/posts/reflexiones-finales.md",
     "src/content/vault/posts/referencias.md",
-    "src/content/vault/posts/example-post.md",
     "src/content/vault/posts/percepciones.md",
-    "src/content/vault/posts/el cuerpo como sensor.md",
+    "src/content/vault/posts/notas-de-campo.md",
+    "src/content/vault/posts/neurociencia-y-sonificacion.md",
+    "src/content/vault/posts/metodologia.md",
+    "src/content/vault/about.md",
     "src/content/vault/inicio.md",
     "README.md",
     "src/assets/blog-placeholder-about.png",
@@ -244,8 +257,6 @@
     "src/site/notes/src/content/vault",
     "src/site/notes/src/content",
     "src/site/notes/src",
-    "src/site/notes",
-    "src/site",
     "src/content/vault/posts/el cuerpo como sensor 1.md"
   ]
 }

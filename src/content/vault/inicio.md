@@ -1,9 +1,9 @@
 ---
+dg-home: true
+dg-publish: true
 title: Proyecto CYM Sonificación del entorno inaudible
 description: Bitácora expandida de un proceso sensorial y técnico en torno a Atucha.
 date: 2025-10-21
-dg-home: true
-dg-publish: true
 ---
 
 >[!INFO]

@@ -1,8 +1,8 @@
 ---
+dg-publish: true
 title: Metodología
 description: Metodología
 date: 2025-10-21
-dg-publish: true
 ---
 ## `metodologia.md`
 Describe tu paradigma operativo:
