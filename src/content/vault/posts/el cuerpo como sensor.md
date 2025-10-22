@@ -1,8 +1,8 @@
 ---
 dg-publish: true
 title: "El cuerpo como sensor: hacia una sonificación de lo inaudible"
-imgHero: /onda1.jpg
 description: Exploración sobre la transducción sensorial y la sonificación de lo infrasonoro y ultrasónico.
+pubDate:
 ---
 ## `El cuerpo como sensor: hacia una sonificación de lo inaudible`
 Este texto inaugura mi exploración sobre la percepción del sonido más allá del oído.  
