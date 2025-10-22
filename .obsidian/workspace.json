@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/components/estilo.css.md",
+                "file": "src/assets/estilo.css.md",
                 "mode": "source",
                 "source": false
               },
@@ -226,14 +226,14 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "7284a7d097664e4d",
+  "active": "5bd3f76c01d5478a",
   "lastOpenFiles": [
+    "src/assets/blog-placeholder-about.png",
+    "src/assets/estilo.css.md",
     "src/assets/blog-placeholder-1.jpg",
-    "src/components/estilo.css.md",
     "src/assets/blog-placeholder-3.jpg",
     "src/assets/blog-placeholder-4.jpg",
     "src/assets/blog-placeholder-5.jpg",
-    "src/assets/blog-placeholder-about.png",
     "src/content/vault/home.md",
     "src/content/vault/about.md",
     "src/content/vault/posts/neurociencia-y-sonificacion.md",
