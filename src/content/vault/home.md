@@ -5,15 +5,11 @@ description: Bitácora expandida de un proceso sensorial y técnico en torno a A
 date: 2025-10-21
 ---
 
->[! info]
-Este jardín digital es un espacio de exploración entre el cuerpo humano, frecuencia y entorno.  
-Desde observaciones de campo en el Complejo Nuclear Atucha, busco traducir percepciones y estados internos en sonido, una práctica de sonificación subjetiva.
-
+>Este jardín digital es un espacio de exploración entre el cuerpo humano, frecuencia y entorno. Desde observaciones de campo en el Complejo Nuclear Atucha, voy a buscar traducir percepciones y estados internos en sonido, una práctica de sonificación subjetiva.
 
 
 ---
-
-### 🌊 Concepto general
+### Concepto general
 
 La obra parte de una pregunta:  
 **¿Cómo se siente el entorno inaudible?**
