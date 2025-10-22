@@ -15,7 +15,7 @@ Desde observaciones de campo en el Complejo Nuclear Atucha, busco traducir perce
 - 📓 [Notas de Campo](notas-de-campo.md)
 - 🔮 [Percepciones y Mapa Sensorial](percepciones.md)
 - 🧩 [Metodología y Procedimientos](metodologia.md)
-- 📚 [Área de Referencias](referencias.md)
+- 📚 [Área de Referencias](src/site/notes/src/content/vault/posts/referencias.md)
 - 🪞 [Reflexiones Finales](reflexiones-finales.md)
 
 ---
