@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/src/content/vault/posts/el-cuerpo-como-sensor/","title":"El cuerpo como sensor: hacia una sonificación de lo inaudible"}
+{"dg-publish":true,"permalink":"/src/site/notes/src/content/vault/posts/el-cuerpo-como-sensor/","title":"El cuerpo como sensor: hacia una sonificación de lo inaudible"}
 ---
+
 
 
 # El cuerpo como sensor: hacia una sonificación de lo inaudible  
@@ -32,7 +33,7 @@ La *sonificación* se construirá como una traducción de esas percepciones, má
 
 ---
 
-## Representación del proceso
+## Representación del procesoaaa
 
 
 
