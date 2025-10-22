@@ -21,7 +21,7 @@ Cada entrada se asocia a un tipo de onda cerebral, que a su vez se **traduce en 
 ## Ondas cerebrales y estados de conciencia
 
 Las ondas cerebrales son oscilaciones eléctricas producidas por la actividad neuronal. Cada tipo refleja un estado mental y emocional distinto. En este proyecto las interpreto no solo como mediciones fisiológicas, sino como **ecos perceptivos**, una forma de escuchar el pensamiento y su reacción ante el ambiente nuclear.
-
+ 
 | Estado emocional           | Tipo de onda | Frecuencia (Hz) | Traducción sonora |
 |----------------------------|---------------|-----------------|-------------------|
 | Calma, contemplación       | Alfa          | 8–13 Hz         | Vibración suave, expansión lenta, timbres amplios |
