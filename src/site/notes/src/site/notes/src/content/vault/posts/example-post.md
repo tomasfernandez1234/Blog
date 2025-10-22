@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/src/content/vault/posts/example-post/","title":"El cuerpo como sensor: hacia una sonificación de lo inaudible","tags":["ejemplo","astro","obsidian"]}
+{"dg-publish":true,"permalink":"/src/site/notes/src/content/vault/posts/example-post/","tags":["ejemplo","astro","obsidian","gardenEntry"]}
 ---
+
 
 
 ¡Bienvenido a tu primer post!
