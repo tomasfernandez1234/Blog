@@ -12,9 +12,9 @@ date: 2025-10-21
 ### Concepto general
 
 La obra parte de una pregunta:  
-¿Cómo se siente el entorno inaudible?
+¿Cómo se siente lo que no sentimos?
 
-Mi método es convertir sensaciones personales en datos y luego en frecuencias sonoras.
+Mi método es convertir sensaciones personales en datos y luego en frecuencias sonoras y una representacion visual de las mismas.
 Así, el proyecto oscila entre la neurociencia y la poética del cuerpo.
 
 ---
@@ -23,13 +23,13 @@ Así, el proyecto oscila entre la neurociencia y la poética del cuerpo.
 La traducción sonora puede representarse mediante la siguiente ecuación conceptual, expresada en lenguaje simbólico (MathJax):
 
 $$
-R(f) = k \cdot \Phi_b(f_b) + \Psi_e(f_e)
+R(f) = k \cdot \Phi(f_c) + \Psi(f_a)
 $$
 
 donde:
 
 - $R(f)$ es la **Representación resultante** en función de la frecuencia percibida,  
-- $\Phi_b(f_b)$ representa la **frecuencia cerebral** asociada al estado interno,  
-- $\Psi_e(f_e)$ corresponde a la **frecuencia ambiental** (infrasonora o electromagnética),  
+- $\Phi(f_c)$ representa la **frecuencia cerebral** asociada al estado interno,  
+- $\Psi(f_a)$ corresponde a la **frecuencia ambiental** (infrasonora o electromagnética),  
 - $k$ es un factor de **traducción perceptiva**, dependiente de la sensación corporal.
 ---

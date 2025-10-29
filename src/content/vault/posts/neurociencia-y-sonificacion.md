@@ -74,14 +74,6 @@ El trabajo de campo en Atucha buscará registrar esas interferencias y transform
 ## Ondas cerebrales y estados de conciencia
 
 Las ondas cerebrales son oscilaciones eléctricas producidas por la actividad neuronal. Cada tipo refleja un estado sensorial distinto. En este proyecto las interpreto no solo como mediciones fisiológicas, sino como ecos perceptivos, una forma de escuchar el pensamiento y su reacción ante el ambiente nuclear.
- 
-| Estado emocional               | Tipo de onda | Frecuencia (Hz) | Traducción sonora                                 |
-| ------------------------------ | ------------ | --------------- | ------------------------------------------------- |
-| Calma, contemplación           | Alfa         | 8–13 Hz         | Vibración suave, expansión lenta, timbres amplios |
-| Somnolencia, trance leve       | Theta        | 4–8 Hz          | Pulsos irregulares, graves envolventes            |
-| Profunda calma, sueño          | Delta        | 0.5–4 Hz        | Golpes lentos, subgraves o silencios prolongados  |
-| Alerta, atención dirigida      | Beta         | 12–30 Hz        | Modulación rápida, tensa, aguda                   |
-| Concentración intensa, insight | Gamma        | 30–100 Hz       | Texturas brillantes, microtonales, pulsantes      |
 
 ---
 ## Ecos, radiación y lo inaudible
