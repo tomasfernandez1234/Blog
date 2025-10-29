@@ -11,14 +11,26 @@
             "id": "5bd3f76c01d5478a",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "public/placeholder-social.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "placeholder-social"
+            }
+          },
+          {
+            "id": "c68999b343a262cb",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/vault/posts/neurociencia-y-sonificacion.md",
+                "file": "src/content/vault/posts/Traducción audiovisual de los datos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "neurociencia-y-sonificacion"
+              "title": "Traducción audiovisual de los datos"
             }
           },
           {
@@ -35,7 +47,8 @@
               "title": "sonificacion.astro"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,26 +198,30 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "5bd3f76c01d5478a",
+  "active": "c68999b343a262cb",
   "lastOpenFiles": [
-    "src/content/vault/posts/referencias.md",
     "src/content/vault/posts/El cuerpo como sensor.md",
-    "src/content/vault/posts/neurociencia-y-sonificacion.md",
+    "src/content/vault/posts/Neurociencia-y-sonificacion.md",
+    "src/content/vault/posts/Referencias.md",
+    "src/content/vault/posts/Traducción audiovisual de los datos.md",
+    "public/placeholder-social.jpg",
+    "public/atucha1.jpg",
+    "Sin nombre 1",
+    "public/cerebro1.jpg",
+    "public/onda1.jpg",
+    "public/favicon.svg",
+    "public/atucha2.jpg",
+    "example-post.md",
+    "Sin nombre",
     "src/content/vault/home.md",
     "src/components/sonificacion.astro.md",
     "src/assets/blog-placeholder-1.jpg",
-    "example-post.md",
     "2025-10-21.md",
     "[Electrical.md",
     "src/content/vault/posts/percepciones.md",
     "src/content/vault/posts/notas-de-campo.md",
     "src/content/vault/posts/metodologia.md",
     "README.md",
-    "public/favicon.svg",
-    "public/onda1.jpg",
-    "public/atucha2.jpg",
-    "public/atucha1.jpg",
-    "public/cerebro1.jpg",
     "src/components/sonificacion.mdx.md",
     "src/site/notes/src/content/vault/inicio.md",
     "src/content/vault/about.md",
@@ -212,7 +229,6 @@
     "src/assets/blog-placeholder-about.png",
     "src/assets/blog-placeholder-3.jpg",
     "src/assets/blog-placeholder-4.jpg",
-    "src/assets/blog-placeholder-5.jpg",
     "src/site/notes/src/site/notes/src/content/vault/posts/example-post.md",
     "src/site/notes/src/site/notes/src/content/vault/posts/el cuerpo como sensor.md",
     "src/site/notes/src/site/notes/src/content/vault/posts",
@@ -227,10 +243,7 @@
     "src/site/notes/src/content/vault/posts/metodologia.md",
     "src/site/notes/src/content/vault/posts/example-post.md",
     "src/site/notes/src/content/vault/posts/el cuerpo como sensor.md",
-    "src/content/vault/posts/Sin título.md",
     "src/site/notes/src/content/vault/posts",
-    "src/site/notes/src/content/vault",
-    "src/site/notes/src/content",
-    "src/site/notes/src"
+    "src/site/notes/src/content/vault"
   ]
 }

@@ -1,6 +1,5 @@
 ---
 title: Neurociencia y sonificación
-description: Neurociencia y sonificación
 dg-publish: true
 ---
 ## # Neurociencia y Sonificación

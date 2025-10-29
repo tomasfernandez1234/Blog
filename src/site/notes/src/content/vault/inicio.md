@@ -11,7 +11,7 @@ Desde observaciones de campo en el Complejo Nuclear Atucha, busco traducir perce
 
 ### Navegación
 
-- 🔬 [Neurociencia y Sonificación](neurociencia-y-sonificacion.md)
+- 🔬 [Neurociencia y Sonificación](Neurociencia-y-sonificacion.md)
 - 📓 [Notas de Campo](notas-de-campo.md)
 - 🔮 [Percepciones y Mapa Sensorial](percepciones.md)
 - 🧩 [Metodología y Procedimientos](metodologia.md)
