@@ -12,14 +12,14 @@ Un punto de partida hacia lo que podría convertirse en una obra, una bitácora 
 ## Sinopsis
 
 Me interesa investigar cómo las ondas infrasónicas y ultrasónicas, invisibles para la percepción auditiva humana, pueden ser traducidas, transducidas o sentidas.  
-Este proyecto no busca registrar con exactitud física, sino interpretar corporalmente la vibración del entorno.  
-La Central Nuclear Atucha se perfila como un territorio simbólico: un espacio donde la energía invisible, contenida y vibrante, se vuelve metáfora de lo inaudible.
+Este proyecto no busca registrar con exactitud, sino que busca el ver como se interpretan corporalmente las frecuencias y la vibración del entorno.  
+La Central Nuclear Atucha se perfila como un territorio simbólico, un espacio donde la energía invisible, contenida y vibrante, se vuelve representacion de una obra sonovisual.
 
 ---
 ## Paradigma operativo
 
 La idea central es que el cuerpo humano funciona como un instrumento de medida.  
-Cada sensación registrada presión, calor, vibración, silencio, ansiedad, resonancia será tratada como dato sonoro.  
+Cada sensación registrada presión, calor, vibración, silencio, ansiedad, resonancia será tratada como dato.  
 La sonificación se construirá como una traducción de esas percepciones.
 
 ---
@@ -31,10 +31,10 @@ La sonificación se construirá como una traducción de esas percepciones.
 ```mermaid
 graph TD
     A[Entorno Inaudible: Infra y Ultrasonido] -->|Percibido por| B[Percepción corporal]
-    B -->|Registrado en| C[Bitácora: texto, dibujo o audio]
+    B -->|Registrado en| C[Bitácora: anotaciones, dibujos, audios, fotografías]
     C -->|Mapeado a datos| D{Proceso de Transducción}
-    D -->|Transposición sonora| E[Sonificación audible]
-    D -->|Visualización espectral| F[Representación visual]
+    D -->E[Sonificación audible]
+    D -->F[Representación visual]
     E --> G[Blog]
     F --> G
 ```

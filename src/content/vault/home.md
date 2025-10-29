@@ -18,12 +18,18 @@ Mi método es convertir sensaciones personales en datos y luego en frecuencias s
 Así, el proyecto oscila entre la neurociencia y la poética del cuerpo.
 
 ---
-### Fórmula conceptual 
+## Representación simbólica
+
+La traducción sonora puede representarse mediante la siguiente ecuación conceptual, expresada en lenguaje simbólico (MathJax):
+
 $$
-S(t) = (E_c+E_s+P_s)
+R(f) = k \cdot \Phi_b(f_b) + \Psi_e(f_e)
 $$
-- \( S(t) \): Sonificación a lo largo del tiempo
-- \( E_c \): Estado cerebral (delta, theta, alfa, beta, gamma)
-- \( E_s \): Estímulo sensorial o ambiental percibido
-- \( P_s \): Percepción subjetiva registrada
+
+donde:
+
+- $R(f)$ es la **Representación resultante** en función de la frecuencia percibida,  
+- $\Phi_b(f_b)$ representa la **frecuencia cerebral** asociada al estado interno,  
+- $\Psi_e(f_e)$ corresponde a la **frecuencia ambiental** (infrasonora o electromagnética),  
+- $k$ es un factor de **traducción perceptiva**, dependiente de la sensación corporal.
 ---

@@ -3,59 +3,91 @@ title: Neurociencia y sonificación
 description: Neurociencia y sonificación
 dg-publish: true
 ---
-## `neurociencia-y-sonificacion.md`
-# Neurociencia y Sonificación
+## # Neurociencia y Sonificación
 
 ## Introducción
 
-En este apartado exploro el vínculo entre **mi percepción corporal y emocional durante las visitas a Atucha** y la **traducción sonora de esos estados mentales** a través de ondas cerebrales.  
-El objetivo es generar una correspondencia sensorial entre lo que siento, lo que registro, y cómo eso puede transformarse en un paisaje sonoro que dialogue con el entorno electromagnético y mecánico del lugar.
+Este apartado funciona como un espacio de exploración teórica y perceptiva.  
+Antes de realizar los registros en Atucha, me interesa establecer un marco de referencia neurofisiológico y sonoro que oriente la futura traducción de mis sensaciones, estados mentales y datos ambientales en sonido.
 
-El proceso parte de mis notas de campo: registros escritos de estados emocionales, percepciones y estímulos físicos (vibraciones, zumbidos, texturas, densidad del aire).  
-Cada entrada se asocia a un tipo de onda cerebral, que a su vez se **traduce en frecuencias audibles o modulaciones** que construyen la sonificación.
+La intención general del proyecto es vincular las frecuencias cerebrales humanas con las frecuencias inaudibles del entorno infrasonidos y ultrasonidos presentes en una zona de alta energía como Atucha.
+
+---
+
+## Ondas cerebrales y sus rangos de frecuencia
+
+El cerebro humano opera dentro de un rango eléctrico que va, aproximadamente, de 0.5 a 100 Hz.  
+Cada estado mental se asocia con un tipo de onda predominante:
+
+| Tipo de onda | Rango (Hz) |
+| ------------ | ---------- |
+| **Delta**    | 0.5–4      |
+| **Theta**    | 4–8        |
+| **Alfa**     | 8–13       |
+| **Beta**     | 13–30      |
+| **Gamma**    | 30–100     |
+
+Estas ondas no son sonidos audibles, sino fluctuaciones eléctricas. Sin embargo, pueden ser traducidas o sonificadas mediante una conversión proporcional de frecuencia o ritmo.
+
+---
+## Sonificación y traducción perceptiva
+
+En mi propuesta, la sonificación no busca una correspondencia literal, sino una metáfora del estado corporal.
+
+Cuando percibo ansiedad o hiperalerta, asigno el estado Beta, representado sonoramente por modulaciones rápidas, agudas y tensas.  
+Cuando experimento calma o contemplación, la onda Alfa se traduce en timbres amplios, graves, envolventes. 
+En la introspección, la onda Theta se transforma en un pulso irregular, flotante y bajo, casi imperceptible.
+
+De esta forma, la bitácora emocional y perceptiva se convierte en un mapa sonoro del propio cuerpo.
+
+---
+
+## Posible diálogo con Atucha
+
+Aún no he realizado el trabajo de campo, pero la central nuclear de Atucha se plantea como un territorio ideal para explorar esta convergencia entre lo fisiológico y lo energético.
+
+El entorno industrial genera constantemente frecuencias infrasonoras y electromagnéticas que, aunque inaudibles, tienen impacto en la percepción corporal, desde la vibración de estructuras metálicas hasta la presencia de radiación controlada en el aire.
+
+Estas vibraciones podrían ser interpretadas o registradas como ecos del funcionamiento interno de la planta, y posteriormente vinculadas a los estados cerebrales mediante un sistema simbólico o sensorial:
+
+| Posible entorno o fuente<br>       | Frecuencia estimada                               | Traducción perceptiva                    | Asociación cerebral |
+| ---------------------------------- | ------------------------------------------------- | ---------------------------------------- | ------------------- |
+| Zonas de silencio electromagnético | <4 Hz                                             | Suspensión, quietud                      | **Delta**           |
+| Ambientes sellados / reverberantes | 4–8 Hz                                            | Eco interior, somnolencia, introspección | **Theta**           |
+| Flujos de agua / enfriamiento      | 8–13 Hz                                           | Ritmo repetitivo, calma profunda         | **Alfa**            |
+| Turbinas / motores                 | 13–30 Hz (infrasonido)                            | Vibración constante, cuerpo tenso        | **Beta**            |
+| Instrumental eléctrico activo      | >30 Hz (ultrasonido o radiación electromagnética) | Estímulo rápido                          | **Gamma**           |
+
+
+---
+
+## Hipótesis perceptiva
+
+Mi hipótesis es que el encuentro entre ambas frecuencias, la interna (cerebral) y la externa (ambiental) genera una zona de interferencia poética.
+
+Un punto donde la vibración del entorno resuena en el cuerpo y puede ser reinterpretada como sonido, texto o experiencia.
+
+El trabajo de campo en Atucha buscará registrar esas interferencias y transformarlas en una cartografía sonora de la percepción.
 
 ---
 
 ## Ondas cerebrales y estados de conciencia
 
-Las ondas cerebrales son oscilaciones eléctricas producidas por la actividad neuronal. Cada tipo refleja un estado mental y emocional distinto. En este proyecto las interpreto no solo como mediciones fisiológicas, sino como **ecos perceptivos**, una forma de escuchar el pensamiento y su reacción ante el ambiente nuclear.
+Las ondas cerebrales son oscilaciones eléctricas producidas por la actividad neuronal. Cada tipo refleja un estado sensorial distinto. En este proyecto las interpreto no solo como mediciones fisiológicas, sino como ecos perceptivos, una forma de escuchar el pensamiento y su reacción ante el ambiente nuclear.
  
-| Estado emocional           | Tipo de onda | Frecuencia (Hz) | Traducción sonora |
-|----------------------------|---------------|-----------------|-------------------|
-| Calma, contemplación       | Alfa          | 8–13 Hz         | Vibración suave, expansión lenta, timbres amplios |
-| Somnolencia, trance leve   | Theta         | 4–8 Hz          | Pulsos irregulares, graves envolventes |
-| Profunda calma, sueño      | Delta         | 0.5–4 Hz        | Golpes lentos, subgraves o silencios prolongados |
-| Alerta, atención dirigida  | Beta          | 12–30 Hz        | Modulación rápida, tensa, aguda |
-| Hipervigilancia, estrés    | Alta Beta     | 25–38 Hz        | Ráfagas cortas, ruido metálico o chispeante |
-| Concentración intensa, insight | Gamma     | 30–100 Hz       | Texturas brillantes, microtonales, pulsantes |
+| Estado emocional               | Tipo de onda | Frecuencia (Hz) | Traducción sonora                                 |
+| ------------------------------ | ------------ | --------------- | ------------------------------------------------- |
+| Calma, contemplación           | Alfa         | 8–13 Hz         | Vibración suave, expansión lenta, timbres amplios |
+| Somnolencia, trance leve       | Theta        | 4–8 Hz          | Pulsos irregulares, graves envolventes            |
+| Profunda calma, sueño          | Delta        | 0.5–4 Hz        | Golpes lentos, subgraves o silencios prolongados  |
+| Alerta, atención dirigida      | Beta         | 12–30 Hz        | Modulación rápida, tensa, aguda                   |
+| Concentración intensa, insight | Gamma        | 30–100 Hz       | Texturas brillantes, microtonales, pulsantes      |
 
 ---
-
-## Traducción sonora y experiencia en Atucha
-
-Durante mis recorridos por Atucha, me encuentro con un **paisaje sonoro casi hipnótico**: un zumbido constante, pulsaciones graves que parecen venir del subsuelo, vibraciones en los cuerpos metálicos, y una presencia silenciosa pero densa que podría asociarse a los **infrasonidos** y **campos electromagnéticos** propios de la planta.
-
-Estas frecuencias, imperceptibles al oído humano, son parte del entorno.  
-Mi intención no es imitarlas, sino **dialogar con ellas desde mi cuerpo**.  
-Por eso, cada nota de campo donde registro sensaciones —por ejemplo, ansiedad, vértigo, calma o fascinación— se transforma en una frecuencia asociada a la onda cerebral correspondiente.
-
-> Cuando registro un estado de alerta ante el rumor grave de las turbinas, lo asocio a la onda **Beta (12–30 Hz)**. En la sonificación, se traduce en una modulación rápida, tensa y cortante.  
->  
-> Cuando experimento calma observando el agua del río junto a las torres de enfriamiento, se activa **Alfa (8–13 Hz)**, representada con una vibración expandida y respirante, casi líquida.
-
----
-
 ## Ecos, radiación y lo inaudible
 
-En un sentido más simbólico, las ondas cerebrales funcionan como **resonancias internas** frente a las ondas invisibles del ambiente: radiación, microvibraciones, ultrasonidos.  
-Así, la sonificación no busca reproducir el sonido real de Atucha, sino **cartografiar lo inaudible**, transformar lo invisible en experiencia sensible.
+En un sentido más simbólico, las ondas cerebrales funcionan como resonancias internas frente a las ondas invisibles del ambiente: radiación, micro vibraciones, ultrasonidos.  
+Así, la sonificación no busca reproducir el sonido real de Atucha, sino cartografiar lo inaudible, transformar lo invisible en experiencia sensible.
 
-Podría decirse que esta traducción sonora actúa como una **ecología perceptiva**, donde mi sistema nervioso se sintoniza con el entorno nuclear.  
-El resultado no será un registro literal, sino un **mosaico emocional** de frecuencias, ritmos y silencios: una interpretación sonora del cuerpo en relación con la energía.
-
----
-
-## Diagrama conceptual
-
-
-``
+Podría decirse que esta traducción sonora actúa como una ecología perceptiva donde mi sistema nervioso se sintoniza con el entorno nuclear.  
+El resultado no será un registro literal, sino un mosaico emocional de frecuencias, ritmos y silencios: una interpretación sonora del cuerpo en relación con la energía de un entorno.
