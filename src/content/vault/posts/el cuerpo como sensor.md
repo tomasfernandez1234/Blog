@@ -6,7 +6,7 @@ pubDate:
 #### Exploración sobre la transducción sensorial y la sonificación de lo infrasonoro y ultrasónico.
 
 
-## `El cuerpo como sensor: hacia una sonificación de lo inaudible`
+## El cuerpo como sensor: hacia una sonificación de lo inaudible
 Este texto inaugura mi exploración sobre la percepción del sonido más allá del oído.  
 Un punto de partida hacia lo que podría convertirse en una obra, una bitácora sensorial o un estudio especulativo sobre cómo lo inaudible se transforma en una experiencia.
 
