@@ -4,7 +4,7 @@ dg-publish: true
 ---
 Durante el recorrido por Atucha recopilaré varios datos vinculados a la experiencia corporal y ambiental. El objetivo es generar un conjunto de información que luego pueda ser traducido en datos variables representando sonido e imagen.
 
-Datos a registrar:
+## Datos a registrar:
 
 - Ubicación y trayecto (coordenadas GPS).
 - Fotografías y videos de zonas específicas del entorno.
